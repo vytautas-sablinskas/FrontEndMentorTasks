@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body,
+html {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: hsl(0, 0%, 86%);
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+p,
+h3,
+li {
+  font-family: "Outfit", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin: 0 0 5px 5px;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+strong {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+table tr {
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+}
+
+table tr td {
+  font-family: "Outfit", sans-serif;
+}
+
+.background-color-wrapper {
+  background-color: hsl(30, 18%, 87%);
+  height: 100%;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe {
+  height: 100%;
+  width: 450px;
+  margin: 75px;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.omelette-image {
+  height: 200px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.mobile-screen-wrapper {
+  display: contents;
+}
+
+.recipe .preparation-time {
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  word-wrap: break-word;
+}
+
+.preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+
+.nutrition-value-table-wrapper {
+  overflow-x: auto;
+}
+
+.nutrition-values td {
+  padding: 20px;
+}
+
+.nutrition-values td:first-child {
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: hsl(24, 5%, 18%);
+}
+
+.nutrition-values td:nth-child(2) {
+  text-align: left;
+  vertical-align: middle;
+  color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 700px) {
+  .recipe {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .recipe h1,
+  h2 {
+    font-family: "YoungSerif-Regular", serif;
+    font-weight: 400;
+  }
+
+  .omelette-image {
+    border-radius: 0;
+  }
+
+  .mobile-screen-wrapper {
+    margin: 50px;
+    display: block;
+  }
+}
