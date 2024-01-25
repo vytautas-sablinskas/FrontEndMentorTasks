@@ -149,6 +149,7 @@ table tr td {
   text-align: left;
   vertical-align: middle;
   color: hsl(14, 45%, 36%);
+  font-weight: bold;
 }
 
 .attribution {
