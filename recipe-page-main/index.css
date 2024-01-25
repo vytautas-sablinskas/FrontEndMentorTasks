@@ -26,11 +26,21 @@ p {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-family: "YoungSerif-Regular", serif;
+  font-weight: lighter;
+  color: hsl(24, 5%, 18%);
 }
 
 h2 {
   color: hsl(14, 45%, 36%);
+  font-family: "YoungSerif-Regular", serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 p,
@@ -46,11 +56,20 @@ table {
 
 ul,
 ol {
-  padding-left: 20px;
+  width: calc(100% - 15px); 
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding-left: 5px;
 }
 
 li {
-  margin: 0 0 5px 5px;
+  margin: 0 0 10px 20px;
+  font-size: 16px;
+}
+
+li span {
+  position: relative;
+  left: 15px;
 }
 
 li::marker {
@@ -81,15 +100,15 @@ table tr td {
 
 .recipe {
   height: 100%;
-  width: 450px;
+  width: 550px;
   margin: 75px;
   padding: 50px;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
 }
 
-.omelette-image {
-  height: 200px;
+.recipe .omelette-image {
+  height: auto;
   width: 100%;
   border-radius: 15px;
 }
@@ -148,18 +167,16 @@ table tr td {
     padding: 0;
   }
 
-  .recipe h1,
-  h2 {
-    font-family: "YoungSerif-Regular", serif;
-    font-weight: 400;
-  }
-
-  .omelette-image {
+  .recipe .omelette-image {
     border-radius: 0;
   }
 
   .mobile-screen-wrapper {
     margin: 50px;
     display: block;
+  }
+
+  p, li, td {
+    font-size: 1.2em;
   }
 }
