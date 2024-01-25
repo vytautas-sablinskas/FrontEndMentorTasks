@@ -35,7 +35,7 @@ h1 {
 h2 {
   color: hsl(14, 45%, 36%);
   font-family: "YoungSerif-Regular", serif;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.8em;
 }
 
@@ -90,7 +90,7 @@ table tr td {
 }
 
 .background-color-wrapper {
-  background-color: hsl(30, 18%, 87%);
+  background-color: hsl(29,53%,90%);
   height: 100%;
   min-width: 250px;
   display: flex;
@@ -126,8 +126,9 @@ table tr td {
 
 .preparation-time h2 {
   color: hsl(332, 51%, 32%);
-  font-weight: lighter;
+  font-weight: 600;
   font-size: 27px;
+  font-family: 'Outfit', sans-serif;
 }
 
 .nutrition-value-table-wrapper {
