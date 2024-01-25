@@ -19,6 +19,7 @@ hr {
   border: 0;
   height: 1px;
   background-color: hsl(0, 0%, 86%);
+  margin-top: 30px;
 }
 
 p {
@@ -63,7 +64,7 @@ ol {
 }
 
 li {
-  margin: 0 0 10px 20px;
+  margin-left: 20px;
   font-size: 16px;
 }
 
@@ -136,7 +137,7 @@ table tr td {
 }
 
 .nutrition-values td {
-  padding: 20px;
+  padding: 10px 10px 10px 30px
 }
 
 .nutrition-values td:first-child {
