@@ -87,11 +87,13 @@ a {
   vertical-align: middle;
   padding: 10px 0;
   font-weight: 600;
+  transition: 0.3s ease;
 }
 
 .links a:hover {
   background-color: hsl(75, 94%, 57%);
   color:hsl(0, 0%, 8%);
+  transition: 0.3s ease;
 }
 
 .attribution {
