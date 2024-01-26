@@ -80,7 +80,6 @@ a {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   font-size: 0.8em;
-  font-weight: 400;
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
@@ -98,10 +97,11 @@ a {
 
 .attribution {
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
+  align-items: flex-end;
+  justify-content: center;
   font-size: 11px;
   text-align: left;
+  gap: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
