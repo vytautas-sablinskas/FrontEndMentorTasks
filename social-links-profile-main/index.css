@@ -50,7 +50,7 @@ a {
 .user-information h1 {
   color: hsl(0, 0%, 100%);
   font-size: 1.4em;
-  font-weight: 400;
+  font-weight: 600;
   margin: 20px 0 12px 0;
 }
 
@@ -86,6 +86,7 @@ a {
   text-align: center;
   vertical-align: middle;
   padding: 10px 0;
+  font-weight: 600;
 }
 
 .links a:hover {
