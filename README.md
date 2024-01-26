@@ -3,5 +3,7 @@ Currently, tasks are only newbie level, but in the future, I plan to do harder o
 
 # Links to hosted tasks:
 ## Newbie level:
-- [Recipe Page](https://recipe-page-task.vercel.app)
-- [Profile With Social Links](https://social-links-profile-task.vercel.app/)
+- [Recipe Page WITH HTML/CSS](https://recipe-page-task.vercel.app)
+- [Profile With Social Links With HTML/CSS](https://social-links-profile-task.vercel.app/)
+- [Blog Preview Card With HTML/CSS](https://blog-preview-task.vercel.app/)
+- [FAQ Accordion With HTML/CSS/JS](https://gleaming-capybara-46a584.netlify.app/)
